@@ -1,0 +1,38 @@
+h1{
+    color: rgb(255, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: double;
+    background-color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    font-size: x-large;
+    border-style: groove;
+}
+
+nav>ul {
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0%;
+
+}
+
+nav>ul>li {
+    display: inline-block;
+    border-style: ridge;
+}
+
+nav>ul>li>a { /* This is how to comment */
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+/* This is an example of a pseudoclass */
+nav>ul>li>a:hover {
+    background-color: black;
+}
