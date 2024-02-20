@@ -39,11 +39,17 @@ ol {
 
 ol>li {
     padding: 2%;
-    margin-left: 20%;
+    margin-left: 35%;
 }
 
 ul {
     list-style-type: square;
+    margin-left: 43%;
+}
+
+.Policies {
+    list-style-type: none;
+    margin: auto;
 }
 
 ul>li {
@@ -54,6 +60,7 @@ ul>li {
 
 dl {
     padding: 2%;
+    text-align: center;
 }
 dl>dt {
     text-align: center;
