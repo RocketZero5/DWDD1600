@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="formstyle.css">
+        <title>Follow Along #6</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                Compatability Test
+            </h1>
+        </header>
+
+        <main>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>About You</legend>
+
+                    <label for="clr">What is your Favorite color?</label>
+                    <input type="color" id="clr" name="clr"> <br>
+
+                    <label for="age">How Old are You?</label>
+                    <input type="number" id="age" name="age" required> <br>
+
+                    <label for="Bday">When is your Birthday?</label>
+                    <input type="date" id="Bday" name="Bday"> <br>
+
+                </fieldset>    
+                
+                <fieldset>
+                    <legend>Shared Likes?</legend>
+
+                    <p>Do You Like Video Games?</p> 
+
+                   
+                    <input type="radio" id="NoV" name="vd" required>
+                    <label for="NoV">No</label> <br>
+
+                    
+                    <input type="radio" id="YorNV" name="vd" required> 
+                    <label for="YorNV">Sort Of...</label> <br>
+
+                   
+                    <input type="radio" id="YesV" name="vd" required>
+                    <label for="YesV">Yes</label> <br>
+                
+                    <p>Do You Like Star Wars?</p>
+                   
+                    <input type="radio" id="NoS" name="SW" required>
+                    <label for="NoS">No</label> <br>
+
+                    
+                    <input type="radio" id="YorNS" name="SW" required> 
+                    <label for="YorNS">Sort Of...</label> <br>
+
+                   
+                    <input type="radio" id="YesS" name="SW" required>
+                    <label for="YesS">Yes</label> <br>
+
+                </fieldset>    
+                
+                <fieldset>
+                    <legend>Contact Information</legend>
+
+                    <label for="fname">Your First Name:</label> <br>
+                    <input type="text" id="fname" name="fname" required> <br>
+
+                    <label for="fname">Your Middle Name (if you have one):</label> <br>
+                    <input type="text" id="fname" name="fname"> <br>
+                    
+                    <label for="lname">Your Last Name:</label> <br>
+                    <input type="text" id="lname" name="lname" required> <br>
+
+                    <label for="pnumber">Phone Number:</label> <br>
+                    <input type="tel" name="pnumber" id="pnumber"> <br>
+
+                    <label for="email">Email Address:</label> <br>
+                    <input type="email" name="email" id="email"> <br>
+
+                    <label for="question">Any Questions for me?</label> <br>
+                    <input type="text" id="question" name="question">
+                </fieldset>
+                
+                <br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+
+        <footer>
+
+        </footer>
+    </body>
+</html>
