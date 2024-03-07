@@ -1,0 +1,55 @@
+/*#region PC Page*/
+header {
+    display: flex;
+    padding: 1rem 2vw;
+    align-items: flex-end;
+    background-image: url(Images/bread-hero-img.webp);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    
+}
+
+header:hover {
+    background-image: url(Images/USSR\ Flag.png);
+    background-position: 35% 28%;
+    color: rgb(0, 0, 0);
+}
+
+header>div{
+    padding-left: 2vw;
+}
+
+nav>ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0 2vw;
+    
+}
+
+nav>ul>li {
+    border: solid;
+    padding: 1px 1px;
+}
+
+nav{
+    border-top: solid;
+    
+}
+
+header>img {
+    border-radius: 50%;
+}
+/*#endregion*/
+
+/*#region Mobile Page*/
+
+
+@media screen and (max-width: 600px){
+
+    nav>ul{
+        display: block;
+    }
+
+    
+}
+/*#endregion*/
