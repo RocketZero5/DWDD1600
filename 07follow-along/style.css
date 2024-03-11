@@ -50,6 +50,21 @@ header>img {
         display: block;
     }
 
+    header {
+        margin: auto;
+        padding: auto;
+        align-content: center;
+    }
+
+    header>figure {
+        display: block;
+    }
+
+    body {
+        margin: auto;
+        padding: auto;
+        align-items: center;
+    }
     
 }
 /*#endregion*/
