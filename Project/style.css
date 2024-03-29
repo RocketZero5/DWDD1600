@@ -3,25 +3,28 @@
 *{box-sizing: border-box;}
 
 body {
-    max-width: max-content;
+    margin: 0%;
     background-color:black;
     color: rgb(255, 255, 255);
     align-items: center;
     text-align: center;
     align-content: center;
     font-family: "Gajraj One";
-    margin-right: 25vw;
-    margin-left: 25vw;
     padding: auto;
     vertical-align: middle;
     
+}
+
+main {
+    margin-right: 10vw;
+    margin-left: 10vw;
 }
 
 header {
     background-image: url(Images/Hyperspace.jfif);
     background-size: cover;
     background-position: 35% 28%;
-    max-width: max-content;
+    
     align-content: center;
 }
 
@@ -77,11 +80,12 @@ p {
 
 nav {
     border-style: solid;
-    max-width: max-content;
+    
     border-color:  rgb(146, 28, 28);
     border-width: 10px;
     font-weight: lighter;
     align-content: center;
+    margin: 0%;
 }
 
 nav>ul {
@@ -139,6 +143,33 @@ ul>li {
     font-size: 20px;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: grey;
+}
+
+table th {
+    background-color: #afa731;
+    color: rgb(231, 231, 25);
+    padding: .5rem 2vw;
+    text-align: center;
+}
+
+table td {
+    color: rgb(231, 231, 25);
+    padding: .4rem 2vw;
+}
+
+table tr:nth-child(odd) {
+    background-color: #585857;
+}
+
+table tr:hover {
+    background-color: rgba(251, 255, 0, 0.2);
+}
+
+
 dl {
     padding: 2%;
     text-align: center;
@@ -159,7 +190,7 @@ a:hover {
 
 footer {
     clear: both;
-    max-width: max-content;
+    
     align-content: center;
 }
 
@@ -304,17 +335,19 @@ nav a:hover {
     
     nav>ul{
         display: block;
-        
+        margin: 0%;
         background-image: linear-gradient(to bottom, red, rgb(192, 14, 14), black, rgb(22, 22, 173), blue);
         
     }
 
     nav>ul>li{
         display: block;
+        margin: 0%;
     }
 
     nav>ul>li>a {
         align-content: center;
+        margin: 0vw;
     }
 
     .flex-box-nav {
