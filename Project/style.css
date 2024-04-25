@@ -80,7 +80,6 @@ p {
 
 nav {
     border-style: solid;
-    
     border-color:  rgb(146, 28, 28);
     border-width: 10px;
     font-weight: lighter;
@@ -104,7 +103,7 @@ nav>ul>li>a {
     list-style-type: none;
     padding-left: 0%;
     background-color: rgb(145, 132, 132);
-  }
+}
       
 .flex-box-nav li {
     background-color: #0084ff;
