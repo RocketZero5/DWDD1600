@@ -1,0 +1,493 @@
+/*#region Head*/
+
+/*#endregion*/
+
+
+body {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgba(46,150,153,255);
+    margin: 1vw;
+
+}
+
+
+/*#region Header*/
+    header {
+        background-image: url(Images/Header\ Image.jfif);
+        background-size: cover;
+        background-position: 5%;
+        color: rgb(241,106,68);
+        align-content: center;
+    }
+
+    header>figure {
+        display: flex;
+    }
+    
+    img.head {
+        flex: left;
+        width: 300px;
+    }
+    
+    h2.head {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+/*#endregion*/
+
+/*#region Nav*/
+    nav{
+        
+    }
+
+    nav>ul{
+        display: flex;
+        list-style-type: none;
+        padding: 0%;
+        border: double;
+    }
+
+    nav>ul>li {
+        font-size: 2vw;
+        margin-left: 1%;
+        margin-right: 1%;
+        padding: 1vw;
+        padding-right: 2vw;
+        padding-left: 2vw;
+        border-right: solid;
+        border-left: solid;
+        background-color: rgba(167,34,107,255);
+    }
+
+    nav>ul>li>a {
+        text-decoration: none;
+        color: rgba(246,219,104,255);
+
+    }
+
+    .current {
+        text-decoration: underline;
+        color: rgba(241,106,68,255);
+    }
+/*#endregion*/
+
+/*#region Main*/
+
+    /*#region Home*/
+        .Home{
+            font-size: 2vw;
+            text-align: center;
+        }
+
+        .Home h1{
+            font-size: 5vw;
+            text-align: center;
+        }
+
+        #testamonial{
+            text-decoration: underline;
+        }
+
+        .Home img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 95%;
+        }
+
+        #get{
+            text-align: center;
+            font-size: 5vw;
+        }
+    /*#endregion*/
+
+    /*#region Packages*/
+        .Packages p{
+            font-size: 1.5vw;
+            margin-left: auto;
+            margin-right: auto;
+            width: 75%;
+        }
+
+        .Packages h1{
+            font-size: 6vw;
+            text-decoration: underline;
+            text-align: center;
+            margin-bottom: 2vw;
+        }
+
+        .Packages h2{
+            text-decoration: none;
+            text-align: center;
+            font-size: 3vw;
+        }
+
+        .Packages img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        #price {
+            font-size: 3vw;
+            text-align: center;
+            text-decoration: underline;
+        }
+    /*#endregion*/
+
+    /*#region Destinations Page*/
+
+        .Gallery {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            row-gap: vw;
+            margin: 0%;
+            column-gap: 0vw;
+            font-size: 1.5vw;
+        }
+
+        .Gallery img{
+            max-width: 100%;
+            height:auto;
+        }
+
+        figcaption{
+            
+            max-width: 100%;
+        }
+
+        .GalleryPackages {
+            margin: 0%;
+        }
+
+        .GalleryPackages figure {
+            margin: 0%;
+            padding: 1vw;
+            padding-left: 5vw;
+            padding-right: 5vw;
+            width: 50%;
+            margin-left: 10vw;
+            margin-right: 10vw;
+            border: inset;
+            background-color: rgb(46,180,153);
+            border-color: rgb(167,34,107);
+        }
+    
+        .GalleryPackages img:hover {
+            box-shadow: -10px 10px 10px 10px rgb(246,219,104);
+        }
+    
+        .GalleryNoPackages{
+            margin: 0%;
+        }
+    
+        .GalleryNoPackages figure {
+            margin: 0%;
+            padding: 1vw;
+            padding-left: 5vw;
+            padding-right: 5vw;
+            width: 50%;
+            margin-left: 10vw;
+            margin-right: 10vw;
+            border: inset;
+            background-color: rgb(46,180,153);
+            border-color: rgb(167,34,107);
+        }
+    
+        .GalleryNoPackages img:hover {
+            box-shadow: 10px 10px 10px 10px rgb(246,219,104);
+        }
+
+        .img1 {
+            grid-row-start: 1;
+            grid-column-start: 1;
+        }
+
+        .img2 {
+            grid-row-start: 2;
+            grid-column-start: 1;
+        }
+
+        .img3 {
+            grid-row-start: 3;
+            grid-column-start: 1;
+        }
+
+        .img4 {
+            grid-row-start: 2;
+            grid-column-start: 1;
+        }
+
+        .img5 {
+            grid-row-start: 2;
+            grid-column-start: 2;
+        }
+
+        .img6 {
+            grid-row-start: 2;
+            grid-column-start: 3;
+        }
+
+    
+        
+    /*#endregion*/
+
+    /*#region Contact Page*/
+
+    h1{
+        text-align: center;
+    }
+
+    form{
+        color: rgba(246,219,104,255);
+        font-size: 2vw;
+    }
+
+    fieldset{
+        background-color: rgba(167,34,107,255);
+        border-color: aqua;
+        margin-bottom: 3vw;
+    }
+
+    input{
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgba(246,219,104,255);
+        background-color: rgba(237,27,75,255);
+        border-color: aqua;
+        font-size: 2vw;
+    }
+
+    input:hover{
+        cursor: pointer;
+    }
+
+    label:hover{
+        cursor: pointer;
+    }
+
+    select{
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgba(246,219,104,255);
+        background-color: rgba(237,27,75,255);
+        border-color: aqua;
+        font-size: 2vw;
+    }
+
+    select:hover{
+        cursor: pointer;
+    }
+
+    textarea {
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgba(246,219,104,255);
+        background-color: rgba(237,27,75,255);
+        border-color: aqua;
+        font-size: 2vw;
+    }
+
+    .submit {
+        color: rgba(246,219,104,255);
+        background-image: linear-gradient(to right bottom, rgb(237,27,75), rgb(241,106,68), rgb(246,219,104));
+        border-radius: 5vw;
+        border: ridge;
+        border-color: aqua;
+        font-size: 3vw;
+        height: auto;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .submit:hover {
+        background-image: linear-gradient(to left top, rgb(237,27,75), rgb(241,106,68), rgb(246,219,104));
+        border-color: rgba(237,27,75,255);
+        color: rgba(167,34,107,255);
+        cursor: pointer;
+    }
+
+    .thanks {
+        text-align: center;
+        font-size: 6vw;
+    }
+
+/*#endregion*/
+
+/*#endregion*/
+
+/*#region footer*/
+    footer{
+        text-align: center;
+        font-size: 2vw;
+    }
+/*#endregion*/
+
+/*#region Smaller Screens*/
+
+    @media screen and (max-width: 600px){
+
+        header {
+            background-image: url(Images/Header\ Image.jfif);
+            background-size: cover;
+            background-position: 5%;
+            color: rgb(241,106,68);
+            align-content: center;
+        }
+    
+        header>figure {
+            display: block;
+        }
+        
+        img.head {
+            width: 75vw;
+        }
+        
+        h2.head {
+            text-align: center;
+            text-decoration: underline;
+        }
+    
+        nav{
+            
+        }
+
+        nav>ul{
+            display: flex;
+           flex-direction: column;
+            margin: 0%;
+            height: auto;
+        }
+
+        nav>ul>li {
+            margin-bottom: 1%;
+            margin-top: 1%;
+            padding-bottom: 2vw;
+            padding-top: 2vw;
+            border: solid;
+            border-radius: 5vw;
+            text-align: center;
+            font-size: 4vw;
+            background-color: rgba(167,34,107,255);
+        }
+
+        nav>ul>li>a{
+            display: block;
+        }
+
+        .Home{
+            font-size: 5vw;
+        }
+
+        .Home h1{
+            font-size: 7vw;
+        }
+
+        .Gallery {
+            display: block;
+            padding: 5vw;
+            font-size: 4vw;
+        }
+
+        #get{
+            font-size: 10vw;
+        }
+
+        .GalleryPackages {
+            margin: 0%;
+        }
+
+        .GalleryPackages figure {
+           margin: 0%;
+           width: fit-content;
+        }
+    
+        .GalleryPackages img:hover {
+            box-shadow: 10px 10px 10px 10px rgb(246,219,104);
+        }
+    
+        .GalleryNoPackages{
+            margin: 0%;
+        }
+    
+        .GalleryNoPackages figure {
+            margin: 0%;
+            width: fit-content;
+        }
+
+        .Packages h1{
+            font-size: 10vw;
+        }
+
+        .Packages h2{
+            text-decoration: none;
+            text-align: center;
+            font-size: 6vw;
+        }
+
+        .Packages img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+        }
+
+        .Packages p{
+            font-size: 4vw;
+            width: 90%;
+        }
+
+        #price {
+            font-size: 6vw;
+        }
+
+        form{
+            font-size: 4vw;
+        }
+    
+        fieldset{
+            background-color: rgba(167,34,107,255);
+            border-color: aqua;
+            margin-bottom: 3vw;
+        }
+    
+        input{
+            font-size: 3vw;
+        }
+    
+        select{
+            font-size: 3vw;
+        }
+    
+        textarea {
+            font-family: "Lobster", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: rgba(246,219,104,255);
+            background-color: rgba(237,27,75,255);
+            border-color: aqua;
+            font-size: 2vw;
+        }
+    
+        .submit {
+            font-size: 6vw;
+            width: 70%;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+
+
+        footer{
+            font-size: 5vw;
+        }
+    }
+
+/*#endregion*/

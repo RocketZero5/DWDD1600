@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&family=Lobster&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+        
+        <title>Budget Vacations Contact Page</title>
+        <link rel="icon" href="Images/Square Vacation Logo.png">
+    </head>
+
+    <body>
+        <header>
+
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Vid.html">Tip Video</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a class="current" href="contact.html">Contact for Help</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1>Below is a form you can fill out if you have questions on the site, a policy, or other details. <br>
+                If you have a question please ask and will will use the info in the form to best help you!</h1>
+
+            <form method="get" action="thanks.html" >
+
+                <fieldset>
+                    <legend>Packages & Timeframe</legend>
+
+                    <p>What Package or Packages are you Looking at?</p>
+
+                    <input type="checkbox" id="pack1" name="pack1">
+                    <label for="pack1">Package 1 - The Alps</label> <br>
+
+                    <input type="checkbox" id="pack2" name="pack2">
+                    <label for="pack2">Package 2 - The Maldives</label> <br>
+
+                    <input type="checkbox" id="pack3" name="pack3">
+                    <label for="pack3">Package 3 - Tokyo</label> <br>
+
+                    <input type="checkbox" id="packdif" name="packdif">
+                    <label for="packdif">A Different Prebuilt Package</label> <br> 
+
+                    <input type="checkbox" id="custom" name="custom">
+                    <label for="custom">A Custom Package</label> <br> <br>
+
+                    <label for="freq">How long are you Planing your Vacation for?</label> <br>
+                    <select name="freq" id="freq" required>
+                        <option value="">Please select a Timeframe</option>
+                        <option value="1-2">1-2 Days</option>
+                        <option value="3-6">3-6 Days</option>
+                        <option value="1W">A Week</option>
+                        <option value="2-3W">2-3 Weeks</option>
+                        <option value="1M+">1 Month or More</option>
+                        <option value="havent">I haven't decided yet</option>
+                    </select>
+
+                </fieldset>    
+                
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+                    <label for="fname">Your First Name:</label> <br>
+                    <input type="text" id="fname" name="fname" required> <br>
+
+                    <label for="mname">Your Middle Name:</label> <br>
+                    <input type="text" id="mname" name="mname"> <br>
+                    
+                    <label for="lname">Your Last Name:</label> <br>
+                    <input type="text" id="lname" name="lname" required> <br>
+
+                    <label for="pnumber">Phone Number:</label> <br>
+                    <input type="tel" name="pnumber" id="pnumber"> <br>
+
+                    <label for="email">Email Address:</label> <br>
+                    <input type="email" name="email" id="email"> <br>
+
+                </fieldset>    
+                
+                <fieldset>
+                    <legend>Feedback</legend>
+
+                    <p>Would You Recomend our Services to Others so far?</p>
+
+                    <input type="radio" id="YesS" name="rec" required>
+                    <label for="YesS">Yes</label> <br>
+
+                    <input type="radio" id="maybe" name="rec" required> 
+                    <label for="maybe">Maybe</label> <br>
+                   
+                    <input type="radio" id="NoS" name="rec" required>
+                    <label for="NoS">No</label> <br> <br>
+
+                    <label for="question">What Questions do You Have?</label> <br>
+                    <textarea name="question" id="question" cols="45" rows="15"></textarea>
+                </fieldset>
+                <br>
+
+                <input class="submit" type="submit" value="Ask for Help">
+
+            </form>
+        </main>
+
+        <footer>
+            <hr>
+            <a href="#top">Back to the Top</a> <br>
+
+            <p>
+                
+                <a href="tel:385-268-3166">Contact Us</a>
+            </p>
+
+            <address>
+            Budget Vacations Headquarters <br>
+            930 500 E, <br>
+            Heber City, UT 84032 <br>
+            </address>
+        
+            <p>
+                &copy; 2024 Budget Vacations Inc
+            </p>
+        </footer>
+    </body>
+
+</html>
